@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -58,9 +58,12 @@ export default {
           500: '#EF4444',
           700: '#B91C1C',
         },
+        // ✅ Merged simple colors
+        background: "#F9FAFB",
+        text: "#111827",
       },
       fontFamily: {
-        sans: ['Inter var', 'sans-serif'],
+        sans: ["Inter var", "Inter", "sans-serif"],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

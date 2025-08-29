@@ -1,0 +1,24 @@
+:root {
+  /* Colors */
+  --color-primary: #1D4ED8;   /* Blue */
+  --color-secondary: #9333EA; /* Purple */
+  --color-background: #F9FAFB;
+  --color-text: #111827;
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  --font-size-heading: 2rem;
+  --font-size-body: 1rem;
+
+  /* Grid (spacing system) */
+  --container-width: 1200px;
+  --gutter: 1rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
